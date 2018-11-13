@@ -48,3 +48,25 @@ elif grade >=70:
     print ("C")
 elif grade >=60:
     print ("D")
+     
+      
+      #task 12
+
+for i in range (1,6):
+    for j in range (1,4):
+        print (i**j, ' ' , end="")
+    print()
+
+
+#task 13
+
+print('\n'*8)
+for i in range (1 ,4):
+    pass
+#    print (i ," ",end="")
+#    print("\t", i, "\t", i * i)
+#    print("%4d test %4d" %(i, i*i))
+
+for i in range (1 ,126):
+    print (i ," ",end="")
+
